@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/messgebackground"
+    android:layout_margin="15dp"
+
+
+    >
+    <TextView
+        android:id="@+id/messageboxcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:autoLink="web|email"
+
+        android:text="your mesage will be shown here is it working for next line."
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/messageboxtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DD-MM-YYYY TIME"
+        android:textSize="12dp"
+        android:textAlignment="viewEnd"
+        />
+
+</LinearLayout>
